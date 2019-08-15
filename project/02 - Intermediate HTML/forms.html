@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms Tutorial</title>
+</head>
+
+<body>
+    <input type="color" name="">
+    <input type="radio" name="">
+    <input type="text" name="" placeholder="username">
+    <input type="password" name="" placeholder="password">
+    <input type="submit" name="">
+    <!-- Sign Up Form-->
+    <h1>Login</h1>
+    <!--     <form>
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <input type="submit" name="">
+    </form>
+
+ -->
+    <form>
+        <label for="username">Username: </label>
+        <input id="username" type="text" name="username" placeholder="username">
+        <label for="password">Password: </label>
+        <input id="password" type="password" name="password" placeholder="password">
+        <input type="submit" name="">
+    </form>
+    <!-- Forms validations -->
+    <form>
+        <label for="username">Username: </label>
+        <input id="username" type="text" name="username" placeholder="username" required>
+        <label for="password">Password: </label>
+        <input id="password" type="password" name="password" placeholder="password" required>
+        <input type="submit" name="">
+    </form>
+    <!-- More form validations -->
+    <form>
+        <label for="username">Email: </label>
+        <input id="username" type="email" name="username" placeholder="email" required>
+        <label for="password">Password: </label>
+        <input id="password" type="password" name="password" placeholder="password" required>
+        <input type="submit" name="">
+    </form>
+</body>
+<!-- More input tags -->
+<!-- Radio buttons -->
+<p>Do you like dogs or cats?</p>
+<form>
+    <label for="dogs">Dogs </label>
+    <input name="petchoice" type="radio" name="" value="dogs">
+    <label for="cats">Cats </label>
+    <input name="petchoice" type="radio" name="" value="cat">
+    <input type="checkbox" name="">
+    <p>What's your favourite color!</p>
+
+    <select name="color">
+    	<option value="first"> Yellow </option>
+    	<option value="second">Red</option>
+    </select>
+
+    <button>Go!</button>
+</form>
+
+</html>
