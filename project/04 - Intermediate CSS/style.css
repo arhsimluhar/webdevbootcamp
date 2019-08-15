@@ -1,0 +1,18 @@
+p{
+	font-family: "Arial";
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1.5;
+	text-align: center;
+}
+
+
+h1{
+	font-family: "Georgia";
+	text-align: left;
+	text-decoration: line-through;
+}
+
+span{
+	font-size: 2em;
+}
