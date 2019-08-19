@@ -1,0 +1,20 @@
+.cls-navbar
+{
+	background:#2c3e50;
+	color: #ffffff;
+}
+
+nav	a
+{
+	color:white;
+}
+nav a:hover
+{
+	color: gray;
+}
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
